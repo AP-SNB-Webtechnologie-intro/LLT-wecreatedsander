@@ -76,11 +76,11 @@ Als laatste zorg je dat je website gehost wordt als een Github Pages website (wo
 <details>
 <summary>opdracht 1: Onderwerp Vinden</summary>
 
-> - [ ] Benoem je onderwerp
-> - [ ] Bedenk welke pagina's je nodig hebt
+> - [+] Benoem je onderwerp
+> - [+] Bedenk welke pagina's je nodig hebt
 > - [ ] Verzamel de nodige inhoud
 >   - teksten, afbeeldingen, titels, ...
-> - [ ] Onderzoek stijlen van de concurrentie
+> - [+] Onderzoek stijlen van de concurrentie
 >   - bekijk andere websites die over een gelijkaardig thema gaan
 
 </details>
