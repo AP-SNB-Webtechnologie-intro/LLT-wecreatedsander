@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Poke-Knowledge/Contact</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="stijl.css">
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<a href="index.html">Home</a>
+				<a href="overzicht.html">Overzicht</a>
+				<a href="contact.html">Contact</a>
+				<div class="subnav">
+				  <button class="subnavbtn">Topics <i class="fa fa-caret-down"></i></button>
+				  <div class="subnav-content">
+					<a href="pokedex.html">Pokedex</a>
+					<a href="regions.html">Regions</a>
+					<a href="videogames.html">Videogames</a>
+					<a href="cardgame.html">Cardgame</a>
+					<a href="typechart.html">Typechart</a>
+					<a href="anime.html">Anime</a>
+				  </div>
+				</div> 
+		</header> 
+		<main>
+			<h1>Contact</h1>
+        
+               
+            <h3>Zit u met een vraag of wilt u graag iets bededelen? Neem dan contact met ons op..</h1>
+
+				<h1>Contacteer ons</h1>
+				<form action="verwerkingscript.php" method="post">
+					<select id="onderwerp" name="onderwerp">
+						<option value="Admin">Admin</option>
+						<option value="Webdesigner">Webdesigner</option>
+					</select>
+			
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" required><br>
+			
+					<label for="bericht">Bericht:</label><br>
+					<textarea id="bericht" name="bericht" rows="4" cols="50" required></textarea><br>
+			
+					<input type="submit" value="Verstuur">
+				</form>
+       
+
+				<div class="contact-card-web">
+					<h2>Poke-Knowledge</h2>
+					<p><strong>Naam:</strong> Sander de Rooij</p>
+					<p><strong>E-mail:</strong> Sander_Webdesigner@Poke-Knowledge.be</p>
+					<p><strong>Telefoon:</strong> +32 123 456 789</p>
+					<p><strong>Adres:</strong> Dorpsstraat 28, 2990 Wuustwezel</p>
+				</div>
+
+				<div class="contact-card-admin">
+					<h2>Poke-Knowledge</h2>
+					<p><strong>Naam:</strong> Kevin Peters</p>
+					<p><strong>E-mail:</strong> Kevin_Admin@Poke-Knowledge.be</p>
+					<p><strong>Telefoon:</strong> +32 987 654 321</p>
+					<p><strong>Adres:</strong> Gebroeders Legrainlaan 85, 1150 Sint-Pieters-Woluwe</p>
+				</div>
+		</main>		
+
+		<footer>
+			&copy; 2023 Poke-Knowledge - Gemaakt met liefde voor Pokémon
+		</footer>
+		
+	</body>
+</html>
